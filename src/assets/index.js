@@ -7,9 +7,19 @@ import biometric from './images/Biometric.png';
 import header2 from './images/header2.png';
 import arrow from './images/arrow.png';
 import lockey from './images/lock.png';
+import faceid from './images/faceid.png';
+import fingerface from './images/facefinger.png';
+import finger from './images/finger.png';
+import header3 from './images/header3.png';
+import footer from './images/footer.png';
 
 export {
     vector,
+    header3,
+    footer,
+    finger,
+    fingerface,
+    faceid,
     phone,
     vector2,
     ic_login,

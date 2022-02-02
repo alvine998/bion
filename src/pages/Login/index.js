@@ -88,7 +88,7 @@ function Login(props) {
                                             </Text>
                                         </View>
                                         <View style={{justifyContent:"center", alignItems:"center", marginTop:normalize(60)}}>
-                                            <TouchableOpacity onPress={() => props.navigation.navigate("reset-password")} style={{ backgroundColor: "#FFB70A", width: normalize(250), height: normalize(50), borderRadius: 25, alignItems: "center", justifyContent: "center" }}>
+                                            <TouchableOpacity onPress={() => props.navigation.navigate("bio-finger")} style={{ backgroundColor: "#FFB70A", width: normalize(250), height: normalize(50), borderRadius: 25, alignItems: "center", justifyContent: "center" }}>
                                                 <Text style={{ color: "#3531B3", textAlign: "center", fontFamily: "Nunito-Bold", lineHeight: 21, fontWeight: 'bold' }}>RESET PASSWORD</Text>
                                             </TouchableOpacity>
                                         </View>

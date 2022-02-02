@@ -13,7 +13,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='account-blocked' screenOptions={{headerShown: true, headerStyle:{backgroundColor:"#87CEEB"}}}>
+      <Stack.Navigator initialRouteName='account-blocked' screenOptions={{headerShown: false}}>
         <Stack.Screen name='account-blocked' component={AccountBlocked}/>
         <Stack.Screen name='reset-password' component={ReturningUser}/>
         <Stack.Screen name='login' component={Login}/>

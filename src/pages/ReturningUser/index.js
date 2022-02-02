@@ -40,9 +40,9 @@ function ReturningUser(props) {
                             Password
                         </Text>
                         <View style={{ paddingRight: normalize(20) }}>
-                            <View style={{ width: "100%", height: normalize(50), paddingLeft: normalize(20), alignItems: "center", backgroundColor: "#221F7A", borderRadius: 5 }}>
+                            <View style={{ width: "100%", height: normalize(50), paddingLeft: normalize(0), alignItems: "center", backgroundColor: "#221F7A", borderRadius: 5 }}>
                                 <View style={{ flexDirection: "row" }}>
-                                    <TextInput secureTextEntry={showPass ? false : true} value={pass} onChangeText={handlePass.bind(this)} style={{ width: normalize(250) }} />
+                                    <TextInput secureTextEntry={showPass ? false : true} value={pass} onChangeText={handlePass.bind(this)} style={{ width: normalize(270) }} />
                                     <Text style={{ color: "#FF931C", lineHeight: 21, textAlign: "right", marginTop: normalize(15) }} onPress={() => handleShowPass()}>SHOW</Text>
                                 </View>
                             </View>

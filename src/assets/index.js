@@ -12,9 +12,11 @@ import fingerface from './images/facefinger.png';
 import finger from './images/finger.png';
 import header3 from './images/header3.png';
 import footer from './images/footer.png';
+import ic_warning from './images/ic_header_warning.png';
 
 export {
     vector,
+    ic_warning,
     header3,
     footer,
     finger,
